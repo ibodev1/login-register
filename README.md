@@ -1,6 +1,7 @@
 # login-register
 Giriş Yap Kayıt Ol Tasarımı
 
+# login-register klasörü içinde
 Code By İbrahim Ödev
 HTML - CSS - JAVASCRİPT
 
