@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: rgb(253, 80, 112);
+  background: linear-gradient(
+    145deg,
+    rgba(253, 80, 112, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(255, 159, 77, 1) 100%
+  );
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+    display: block;
+  max-width: 350px;
+  height: auto;
+  padding: 30px;
+  border-radius: 35px;
+  background: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h1 {
+    padding: 0px 10px 5px 10px;
+    font-size: 2rem;
+}
+
+.box p {
+    padding: 0px 7px 10px 7px;
+}
+
+.box input {
+    width: 100%;
+    height: auto;
+    background: #eee;
+    border: 0;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+.box input[type=submit] {
+    background: rgb(21, 111, 247);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box .btn {
+    position: relative;
+}
+
+.box .btn i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    z-index: 99;
+}
+
+.box .is {
+    display: flex;
+}
+
+.box .is .isim {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 2px;
+}
+
+.box .is .soyad {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 111, 247);
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.box .pass {
+    display: flex;
+    position: relative;
+}
+
+.box .pass i {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    padding: 9.5px 10px;
+    background: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.box p {
+    font-size: 12px;
+}
